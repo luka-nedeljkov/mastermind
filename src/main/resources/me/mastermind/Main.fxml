@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+
+<SplitPane dividerPositions="0.5" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="me.mastermind.MainController">
+   <items>
+      <SplitPane dividerPositions="0.5" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="375.0" prefWidth="400.0">
+         <items>
+            <VBox fx:id="guessingBox" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="375.0" prefWidth="190.0">
+               <children>
+                  <HBox alignment="CENTER" prefHeight="75.0" prefWidth="200.0">
+                     <children>
+                        <Circle fill="#c6c6c6" radius="20.0" stroke="BLACK" strokeType="INSIDE">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Circle>
+                        <Circle fill="#c6c6c6" radius="20.0" stroke="BLACK" strokeType="INSIDE">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Circle>
+                        <Circle fill="#c6c6c6" radius="20.0" stroke="BLACK" strokeType="INSIDE">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Circle>
+                        <Circle fill="#c6c6c6" radius="20.0" stroke="BLACK" strokeType="INSIDE">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Circle>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="75.0" prefWidth="200.0">
+                     <children>
+                        <Circle fill="#c6c6c6" radius="20.0" stroke="BLACK" strokeType="INSIDE">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Circle>
+                        <Circle fill="#c6c6c6" radius="20.0" stroke="BLACK" strokeType="INSIDE">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Circle>
+                        <Circle fill="#c6c6c6" radius="20.0" stroke="BLACK" strokeType="INSIDE">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Circle>
+                        <Circle fill="#c6c6c6" radius="20.0" stroke="BLACK" strokeType="INSIDE">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Circle>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="75.0" prefWidth="200.0">
+                     <children>
+                        <Circle fill="#c6c6c6" radius="20.0" stroke="BLACK" strokeType="INSIDE">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Circle>
+                        <Circle fill="#c6c6c6" radius="20.0" stroke="BLACK" strokeType="INSIDE">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Circle>
+                        <Circle fill="#c6c6c6" radius="20.0" stroke="BLACK" strokeType="INSIDE">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Circle>
+                        <Circle fill="#c6c6c6" radius="20.0" stroke="BLACK" strokeType="INSIDE">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Circle>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="75.0" prefWidth="200.0">
+                     <children>
+                        <Circle fill="#c6c6c6" radius="20.0" stroke="BLACK" strokeType="INSIDE">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Circle>
+                        <Circle fill="#c6c6c6" radius="20.0" stroke="BLACK" strokeType="INSIDE">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Circle>
+                        <Circle fill="#c6c6c6" radius="20.0" stroke="BLACK" strokeType="INSIDE">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Circle>
+                        <Circle fill="#c6c6c6" radius="20.0" stroke="BLACK" strokeType="INSIDE">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Circle>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="75.0" prefWidth="200.0">
+                     <children>
+                        <Circle fill="#c6c6c6" radius="20.0" stroke="BLACK" strokeType="INSIDE">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Circle>
+                        <Circle fill="#c6c6c6" radius="20.0" stroke="BLACK" strokeType="INSIDE">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Circle>
+                        <Circle fill="#c6c6c6" radius="20.0" stroke="BLACK" strokeType="INSIDE">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Circle>
+                        <Circle fill="#c6c6c6" radius="20.0" stroke="BLACK" strokeType="INSIDE">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Circle>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="75.0" prefWidth="200.0">
+                     <children>
+                        <Circle fill="#c6c6c6" radius="20.0" stroke="BLACK" strokeType="INSIDE">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Circle>
+                        <Circle fill="#c6c6c6" radius="20.0" stroke="BLACK" strokeType="INSIDE">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Circle>
+                        <Circle fill="#c6c6c6" radius="20.0" stroke="BLACK" strokeType="INSIDE">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Circle>
+                        <Circle fill="#c6c6c6" radius="20.0" stroke="BLACK" strokeType="INSIDE">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Circle>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <VBox fx:id="resultBox" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="375.0" prefWidth="190.0">
+               <children>
+                  <HBox alignment="CENTER" prefHeight="75.0" prefWidth="200.0">
+                     <children>
+                        <Circle fill="#464646" radius="20.0" stroke="BLACK" strokeType="INSIDE">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Circle>
+                        <Circle fill="#464646" radius="20.0" stroke="BLACK" strokeType="INSIDE">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Circle>
+                        <Circle fill="#464646" radius="20.0" stroke="BLACK" strokeType="INSIDE">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Circle>
+                        <Circle fill="#464646" radius="20.0" stroke="BLACK" strokeType="INSIDE">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Circle>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="75.0" prefWidth="200.0">
+                     <children>
+                        <Circle fill="#464646" radius="20.0" stroke="BLACK" strokeType="INSIDE">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Circle>
+                        <Circle fill="#464646" radius="20.0" stroke="BLACK" strokeType="INSIDE">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Circle>
+                        <Circle fill="#464646" radius="20.0" stroke="BLACK" strokeType="INSIDE">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Circle>
+                        <Circle fill="#464646" radius="20.0" stroke="BLACK" strokeType="INSIDE">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Circle>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="75.0" prefWidth="200.0">
+                     <children>
+                        <Circle fill="#464646" radius="20.0" stroke="BLACK" strokeType="INSIDE">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Circle>
+                        <Circle fill="#464646" radius="20.0" stroke="BLACK" strokeType="INSIDE">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Circle>
+                        <Circle fill="#464646" radius="20.0" stroke="BLACK" strokeType="INSIDE">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Circle>
+                        <Circle fill="#464646" radius="20.0" stroke="BLACK" strokeType="INSIDE">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Circle>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="75.0" prefWidth="200.0">
+                     <children>
+                        <Circle fill="#464646" radius="20.0" stroke="BLACK" strokeType="INSIDE">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Circle>
+                        <Circle fill="#464646" radius="20.0" stroke="BLACK" strokeType="INSIDE">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Circle>
+                        <Circle fill="#464646" radius="20.0" stroke="BLACK" strokeType="INSIDE">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Circle>
+                        <Circle fill="#464646" radius="20.0" stroke="BLACK" strokeType="INSIDE">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Circle>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="75.0" prefWidth="200.0">
+                     <children>
+                        <Circle fill="#464646" radius="20.0" stroke="BLACK" strokeType="INSIDE">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Circle>
+                        <Circle fill="#464646" radius="20.0" stroke="BLACK" strokeType="INSIDE">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Circle>
+                        <Circle fill="#464646" radius="20.0" stroke="BLACK" strokeType="INSIDE">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Circle>
+                        <Circle fill="#464646" radius="20.0" stroke="BLACK" strokeType="INSIDE">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Circle>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="75.0" prefWidth="200.0">
+                     <children>
+                        <Circle fill="#464646" radius="20.0" stroke="BLACK" strokeType="INSIDE">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Circle>
+                        <Circle fill="#464646" radius="20.0" stroke="BLACK" strokeType="INSIDE">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Circle>
+                        <Circle fill="#464646" radius="20.0" stroke="BLACK" strokeType="INSIDE">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Circle>
+                        <Circle fill="#464646" radius="20.0" stroke="BLACK" strokeType="INSIDE">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Circle>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </items>
+      </SplitPane>
+      <HBox maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="225.0" prefWidth="400.0">
+         <children>
+            <VBox alignment="CENTER" prefHeight="125.0" prefWidth="200.0">
+               <children>
+                  <HBox fx:id="finalBox" alignment="CENTER" prefHeight="60.0" prefWidth="200.0">
+                     <children>
+                        <Circle fill="#c6c6c6" radius="20.0" stroke="BLACK" strokeType="INSIDE">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Circle>
+                        <Circle fill="#c6c6c6" radius="20.0" stroke="BLACK" strokeType="INSIDE">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Circle>
+                        <Circle fill="#c6c6c6" radius="20.0" stroke="BLACK" strokeType="INSIDE">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Circle>
+                        <Circle fill="#c6c6c6" radius="20.0" stroke="BLACK" strokeType="INSIDE">
+                           <HBox.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Circle>
+                     </children>
+                  </HBox>
+                  <Label prefWidth="184.0" text="MASTERMIND">
+                     <VBox.margin>
+                        <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <AnchorPane prefHeight="125.0" prefWidth="200.0">
+               <children>
+                  <Circle fill="RED" layoutX="39.0" layoutY="37.0" onMouseClicked="#click" radius="23.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="#ffa700" layoutX="160.0" layoutY="102.0" onMouseClicked="#click" radius="23.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="#960096" layoutX="100.0" layoutY="102.0" onMouseClicked="#click" radius="23.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="DODGERBLUE" layoutX="39.0" layoutY="102.0" onMouseClicked="#click" radius="23.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="YELLOW" layoutX="100.0" layoutY="37.0" onMouseClicked="#click" radius="23.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fill="#009600" layoutX="160.0" layoutY="37.0" onMouseClicked="#click" radius="23.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Button layoutX="55.0" layoutY="144.0" mnemonicParsing="false" onAction="#submit" text="Submit Guess" />
+                  <Button layoutX="61.0" layoutY="178.0" mnemonicParsing="false" onAction="#clear" text="Clear Guess" />
+               </children>
+            </AnchorPane>
+         </children>
+      </HBox>
+   </items>
+</SplitPane>
